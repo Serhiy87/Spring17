@@ -1,0 +1,28 @@
+Установка GIT:
+качаем, ставим.
+запускаем GIT Bash
+
+Создание репозитория
+1. Переходим в GIT Bash в папку репозитория
+2. Выполня ем в ней GIT init  
+
+Команды
+
+Конфигурация:
+git config --global user.name "your name"-имя
+git config --global user.email "your email"- конфиг
+git config --global core.autocrlf true
+git config --global core.safecrlf true
+
+Работа:
+git status - статус
+git add "index.html" - добавить файл в индекс
+git add . - добавить в индекс все файлы в теущем каталоге
+git add * - добавить в индекс все файлы 
+git commit -m "Описание коммита" - коммит
+
+git log - история
+git diff -разница
+
+
+
