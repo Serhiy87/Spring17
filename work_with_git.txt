@@ -14,6 +14,9 @@ git config --global user.email "your email"- конфиг
 git config --global core.autocrlf true
 git config --global core.safecrlf true
 
+$ git config --global core.safecrlf false - игнорировать ошибку CLRF
+$ git config --global core.safecrlf warn - чтоб выводило warning
+
 Работа:
 git status - статус
 git add "index.html" - добавить файл в индекс
